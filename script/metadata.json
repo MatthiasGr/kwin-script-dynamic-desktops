@@ -1,0 +1,20 @@
+{
+	"KPackageStructure": "KWin/Script",
+	"KPlugin": {
+		"Name": "Dynamic Desktops",
+		"Version": "1.0.0",
+		"Description": "Add and remove virtual desktops on demand",
+		"Authors": [
+			{
+				"Name": "Matthias Griebl"
+			}
+		],
+		"Icon": "virtual-desktops",
+		"Id": "dynamic-desktops",
+		"License": "GPLv3"
+	},
+	"X-KDE-ConfigModule": "kwin/effects/configs/kcm_kwin4_genericscripted",
+	"X-Plasma-API": "javascript",
+	"X-Plasma-API-Minimum-Version": "6.0",
+	"X-Plasma-MainScript": "code/main.js"
+}
